@@ -1,2 +1,4 @@
-# eth-atml-fall19
-Presentation for the Advanced Topics in Machine Learning seminar, Fall 2019
+# On Variational Bounds of Mutual Information
+Presentation I made for the Advanced Topics in Machine Learning seminar for the Fall 2019 semester. While I mainly talked about [Poole et al.](https://arxiv.org/abs/1905.06922) paper, I also tried to include some discussion from [Tschannen et al.](https://arxiv.org/abs/1907.13625) paper.
+
+ETH Zurich presentation templates can be found [here](https://ethz.ch/services/en/service/communication/corporate-design/templates-for-creative-design/presentation.html) (needs auth). I used [IguanaTex](http://www.jonathanleroux.org/software/iguanatex/) PowerPoint add-in for typing math equations in  LaTeX.

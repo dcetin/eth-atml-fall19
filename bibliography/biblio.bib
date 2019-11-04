@@ -1,0 +1,200 @@
+
+@article{pooleVariationalBoundsMutual2019,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1905.06922},
+  primaryClass = {cs, stat},
+  title = {On {{Variational Bounds}} of {{Mutual Information}}},
+  url = {http://arxiv.org/abs/1905.06922},
+  abstract = {Estimating and optimizing Mutual Information (MI) is core to many problems in machine learning; however, bounding MI in high dimensions is challenging. To establish tractable and scalable objectives, recent work has turned to variational bounds parameterized by neural networks, but the relationships and tradeoffs between these bounds remains unclear. In this work, we unify these recent developments in a single framework. We find that the existing variational lower bounds degrade when the MI is large, exhibiting either high bias or high variance. To address this problem, we introduce a continuum of lower bounds that encompasses previous bounds and flexibly trades off bias and variance. On high-dimensional, controlled problems, we empirically characterize the bias and variance of the bounds and their gradients and demonstrate the effectiveness of our new bounds for estimation and representation learning.},
+  urldate = {2019-10-19},
+  date = {2019-05-16},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Poole, Ben and Ozair, Sherjil and van den Oord, Aaron and Alemi, Alexander A. and Tucker, George},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\PAA8MGVD\\Poole et al. - 2019 - On Variational Bounds of Mutual Information.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\DNTZPQA8\\1905.html}
+}
+
+@article{hjelmLearningDeepRepresentations2018,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1808.06670},
+  primaryClass = {cs, stat},
+  title = {Learning Deep Representations by Mutual Information Estimation and Maximization},
+  url = {http://arxiv.org/abs/1808.06670},
+  abstract = {In this work, we perform unsupervised learning of representations by maximizing mutual information between an input and the output of a deep neural network encoder. Importantly, we show that structure matters: incorporating knowledge about locality of the input to the objective can greatly influence a representation's suitability for downstream tasks. We further control characteristics of the representation by matching to a prior distribution adversarially. Our method, which we call Deep InfoMax (DIM), outperforms a number of popular unsupervised learning methods and competes with fully-supervised learning on several classification tasks. DIM opens new avenues for unsupervised learning of representations and is an important step towards flexible formulations of representation-learning objectives for specific end-goals.},
+  urldate = {2019-10-19},
+  date = {2018-08-20},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Hjelm, R. Devon and Fedorov, Alex and Lavoie-Marchildon, Samuel and Grewal, Karan and Bachman, Phil and Trischler, Adam and Bengio, Yoshua},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\NNT67HSF\\Hjelm et al. - 2018 - Learning deep representations by mutual informatio.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\QQXMYM5S\\1808.html}
+}
+
+@article{anandUnsupervisedStateRepresentation2019,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1906.08226},
+  primaryClass = {cs, stat},
+  title = {Unsupervised {{State Representation Learning}} in {{Atari}}},
+  url = {http://arxiv.org/abs/1906.08226},
+  abstract = {State representation learning, or the ability to capture latent generative factors of an environment, is crucial for building intelligent agents that can perform a wide variety of tasks. Learning such representations without supervision from rewards is a challenging open problem. We introduce a method that learns state representations by maximizing mutual information across spatially and temporally distinct features of a neural encoder of the observations. We also introduce a new benchmark based on Atari 2600 games where we evaluate representations based on how well they capture the ground truth state variables. We believe this new framework for evaluating representation learning models will be crucial for future representation learning research. Finally, we compare our technique with other state-of-the-art generative and contrastive representation learning methods.},
+  urldate = {2019-10-19},
+  date = {2019-06-19},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Anand, Ankesh and Racah, Evan and Ozair, Sherjil and Bengio, Yoshua and Côté, Marc-Alexandre and Hjelm, R. Devon},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\G8EC39VJ\\Anand et al. - 2019 - Unsupervised State Representation Learning in Atar.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\XRJHG6AA\\1906.html}
+}
+
+@article{tschannenMutualInformationMaximization2019,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1907.13625},
+  primaryClass = {cs, stat},
+  title = {On {{Mutual Information Maximization}} for {{Representation Learning}}},
+  url = {http://arxiv.org/abs/1907.13625},
+  abstract = {Many recent methods for unsupervised or self-supervised representation learning train feature extractors by maximizing an estimate of the mutual information (MI) between different views of the data. This comes with several immediate problems: For example, MI is notoriously hard to estimate, and using it as an objective for representation learning may lead to highly entangled representations due to its invariance under arbitrary invertible transformations. Nevertheless, these methods have been repeatedly shown to excel in practice. In this paper we argue, and provide empirical evidence, that the success of these methods might be only loosely attributed to the properties of MI, and that they strongly depend on the inductive bias in both the choice of feature extractor architectures and the parametrization of the employed MI estimators. Finally, we establish a connection to deep metric learning and argue that this interpretation may be a plausible explanation for the success of the recently introduced methods.},
+  urldate = {2019-10-19},
+  date = {2019-07-31},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Tschannen, Michael and Djolonga, Josip and Rubenstein, Paul K. and Gelly, Sylvain and Lucic, Mario},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\LISSTBJP\\Tschannen et al. - 2019 - On Mutual Information Maximization for Representat.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\LFRMCJ9S\\1907.html}
+}
+
+@article{oordRepresentationLearningContrastive2018,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1807.03748},
+  primaryClass = {cs, stat},
+  title = {Representation {{Learning}} with {{Contrastive Predictive Coding}}},
+  url = {http://arxiv.org/abs/1807.03748},
+  abstract = {While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artificial intelligence. In this work, we propose a universal unsupervised learning approach to extract useful representations from high-dimensional data, which we call Contrastive Predictive Coding. The key insight of our model is to learn such representations by predicting the future in latent space by using powerful autoregressive models. We use a probabilistic contrastive loss which induces the latent space to capture information that is maximally useful to predict future samples. It also makes the model tractable by using negative sampling. While most prior work has focused on evaluating representations for a particular modality, we demonstrate that our approach is able to learn useful representations achieving strong performance on four distinct domains: speech, images, text and reinforcement learning in 3D environments.},
+  urldate = {2019-10-19},
+  date = {2018-07-10},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {van den Oord, Aaron and Li, Yazhe and Vinyals, Oriol},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\CFMTWBL6\\Oord et al. - 2018 - Representation Learning with Contrastive Predictiv.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\FNIB3AVX\\1807.html}
+}
+
+@article{bellInformationmaximizationApproachBlind1995,
+  title = {An {{Information}}-Maximization {{Approach}} to {{Blind Separation}} and {{Blind Deconvolution}}},
+  volume = {7},
+  issn = {0899-7667},
+  url = {http://dx.doi.org/10.1162/neco.1995.7.6.1129},
+  doi = {10.1162/neco.1995.7.6.1129},
+  abstract = {We derive a new self-organizing learning algorithm that
+maximizes the information transferred in a network of nonlinear
+units. The algorithm does not assume any knowledge of the input
+distributions, and is defined here for the zero-noise limit. Under
+these conditions, information maximization has extra properties not
+found in the linear case (Linsker 1989). The nonlinearities in the
+transfer function are able to pick up higher-order moments of the
+input distributions and perform something akin to true redundancy
+reduction between units in the output representation. This enables
+the network to separate statistically independent components in the
+inputs: a higher-order generalization of principal components
+analysis. We apply the network to the source separation (or
+cocktail party) problem, successfully separating unknown mixtures
+of up to 10 speakers. We also show that a variant on the network
+architecture is able to perform blind deconvolution (cancellation
+of unknown echoes and reverberation in a speech signal). Finally,
+we derive dependencies of information transfer on time delays. We
+suggest that information maximization provides a unifying framework
+for problems in "blind" signal processing.},
+  number = {6},
+  journaltitle = {Neural Comput.},
+  urldate = {2019-10-19},
+  date = {1995-11},
+  pages = {1129--1159},
+  author = {Bell, Anthony J. and Sejnowski, Terrence J.},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\SFQQ6SGT\\Bell and Sejnowski - 1995 - An Information-maximization Approach to Blind Sepa.pdf}
+}
+
+@inproceedings{barberIMAlgorithmVariational2003,
+  location = {{Cambridge, MA, USA}},
+  title = {The {{IM Algorithm}}: {{A Variational Approach}} to {{Information Maximization}}},
+  url = {http://dl.acm.org/citation.cfm?id=2981345.2981371},
+  shorttitle = {The {{IM Algorithm}}},
+  abstract = {The maximisation of information transmission over noisy channels is a common, albeit generally computationally difficult problem. We approach the difficulty of computing the mutual information for noisy channels by using a variational approximation. The resulting IM algorithm is analagous to the EM algorithm, yet maximises mutual information, as opposed to likelihood. We apply the method to several practical examples, including linear compression, population encoding and CDMA.},
+  booktitle = {Proceedings of the 16th {{International Conference}} on {{Neural Information Processing Systems}}},
+  series = {{{NIPS}}'03},
+  publisher = {{MIT Press}},
+  urldate = {2019-10-19},
+  date = {2003},
+  pages = {201--208},
+  author = {Barber, David and Agakov, Felix},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\4ZH8BAB2\\Barber and Agakov - 2003 - The IM Algorithm A Variational Approach to Inform.pdf},
+  venue = {Whistler, British Columbia, Canada}
+}
+
+@article{belghaziMINEMutualInformation2018,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1801.04062},
+  primaryClass = {cs, stat},
+  title = {{{MINE}}: {{Mutual Information Neural Estimation}}},
+  url = {http://arxiv.org/abs/1801.04062},
+  shorttitle = {{{MINE}}},
+  abstract = {We argue that the estimation of mutual information between high dimensional continuous random variables can be achieved by gradient descent over neural networks. We present a Mutual Information Neural Estimator (MINE) that is linearly scalable in dimensionality as well as in sample size, trainable through back-prop, and strongly consistent. We present a handful of applications on which MINE can be used to minimize or maximize mutual information. We apply MINE to improve adversarially trained generative models. We also use MINE to implement Information Bottleneck, applying it to supervised classification; our results demonstrate substantial improvement in flexibility and performance in these settings.},
+  urldate = {2019-10-19},
+  date = {2018-01-12},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Belghazi, Mohamed Ishmael and Baratin, Aristide and Rajeswar, Sai and Ozair, Sherjil and Bengio, Yoshua and Courville, Aaron and Hjelm, R. Devon},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\W43X9T8N\\Belghazi et al. - 2018 - MINE Mutual Information Neural Estimation.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\A3ZVA93Q\\1801.html}
+}
+
+@incollection{chenInfoGANInterpretableRepresentation2016,
+  title = {{{InfoGAN}}: {{Interpretable Representation Learning}} by {{Information Maximizing Generative Adversarial Nets}}},
+  url = {http://papers.nips.cc/paper/6399-infogan-interpretable-representation-learning-by-information-maximizing-generative-adversarial-nets.pdf},
+  shorttitle = {{{InfoGAN}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 29},
+  publisher = {{Curran Associates, Inc.}},
+  urldate = {2019-10-19},
+  date = {2016},
+  pages = {2172--2180},
+  author = {Chen, Xi and Duan, Yan and Houthooft, Rein and Schulman, John and Sutskever, Ilya and Abbeel, Pieter},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\WIEZVXYY\\Chen et al. - 2016 - InfoGAN Interpretable Representation Learning by .pdf;C\:\\Users\\Doruk\\Zotero\\storage\\3QYFR4NC\\6399-infogan-interpretable-representation.html}
+}
+
+@article{locatelloChallengingCommonAssumptions2019,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1811.12359},
+  primaryClass = {cs, stat},
+  title = {Challenging {{Common Assumptions}} in the {{Unsupervised Learning}} of {{Disentangled Representations}}},
+  url = {http://arxiv.org/abs/1811.12359},
+  abstract = {The key idea behind the unsupervised learning of disentangled representations is that real-world data is generated by a few explanatory factors of variation which can be recovered by unsupervised learning algorithms. In this paper, we provide a sober look at recent progress in the field and challenge some common assumptions. We first theoretically show that the unsupervised learning of disentangled representations is fundamentally impossible without inductive biases on both the models and the data. Then, we train more than 12000 models covering most prominent methods and evaluation metrics in a reproducible large-scale experimental study on seven different data sets. We observe that while the different methods successfully enforce properties ``encouraged'' by the corresponding losses, well-disentangled models seemingly cannot be identified without supervision. Furthermore, increased disentanglement does not seem to lead to a decreased sample complexity of learning for downstream tasks. Our results suggest that future work on disentanglement learning should be explicit about the role of inductive biases and (implicit) supervision, investigate concrete benefits of enforcing disentanglement of the learned representations, and consider a reproducible experimental setup covering several data sets.},
+  urldate = {2019-10-25},
+  date = {2019-06-18},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  author = {Locatello, Francesco and Bauer, Stefan and Lucic, Mario and Rätsch, Gunnar and Gelly, Sylvain and Schölkopf, Bernhard and Bachem, Olivier},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\VPYE25XQ\\Locatello et al. - 2019 - Challenging Common Assumptions in the Unsupervised.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\TQRWHR7A\\1811.html}
+}
+
+@incollection{linskerApplicationPrincipleMaximum1989,
+  title = {An {{Application}} of the {{Principle}} of {{Maximum Information Preservation}} to {{Linear Systems}}},
+  url = {http://papers.nips.cc/paper/102-an-application-of-the-principle-of-maximum-information-preservation-to-linear-systems.pdf},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 1},
+  publisher = {{Morgan-Kaufmann}},
+  urldate = {2019-10-27},
+  date = {1989},
+  pages = {186--194},
+  author = {Linsker, Ralph},
+  editor = {Touretzky, D. S.},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\8FGT4RBP\\Linsker - 1989 - An Application of the Principle of Maximum Informa.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\UEV7Q2E8\\102-an-application-of-the-principle-of-maximum-information-preservation-to-linear-systems.html}
+}
+
+@article{nguyenEstimatingDivergenceFunctionals2010,
+  title = {Estimating {{Divergence Functionals}} and the {{Likelihood Ratio}} by {{Convex Risk Minimization}}},
+  volume = {56},
+  issn = {0018-9448, 1557-9654},
+  doi = {10.1109/TIT.2010.2068870},
+  abstract = {We develop and analyze M-estimation methods for divergence functionals and the likelihood ratios of two probability distributions. Our method is based on a nonasymptotic variational characterization of f -divergences, which allows the problem of estimating divergences to be tackled via convex empirical risk optimization. The resulting estimators are simple to implement, requiring only the solution of standard convex programs. We present an analysis of consistency and convergence for these estimators. Given conditions only on the ratios of densities, we show that our estimators can achieve optimal minimax rates for the likelihood ratio and the divergence functionals in certain regimes. We derive an efficient optimization algorithm for computing our estimates, and illustrate their convergence behavior and practical viability by simulations.},
+  number = {11},
+  journaltitle = {IEEE Transactions on Information Theory},
+  date = {2010-11},
+  pages = {5847-5861},
+  keywords = {$f$-divergence,Convergence,convex empirical risk optimization,Convex functions,Convex optimization,convex programming,convex risk minimization,density ratio estimation,divergence estimation,divergence functional estimation,Entropy,Estimation,f-divergence,functional analysis,Kernel,Kullback-Leibler (KL) divergence,likelihood ratio,M-estimation,M-estimation method,maximum likelihood estimation,Measurement,minimax techniques,nonasymptotic variational characterization,optimal minimax rate,probability distribution,Probability distribution,reproducing kernel Hilbert space (RKHS),risk analysis,statistical distributions,surrogate loss functions,variational techniques},
+  author = {Nguyen, XuanLong and Wainwright, Martin J. and Jordan, Michael I.},
+  file = {C\:\\Users\\Doruk\\Zotero\\storage\\XN49P438\\Nguyen et al. - 2010 - Estimating Divergence Functionals and the Likeliho.pdf;C\:\\Users\\Doruk\\Zotero\\storage\\BHFSHEVK\\5605355.html}
+}
+
+
